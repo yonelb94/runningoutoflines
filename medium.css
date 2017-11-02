@@ -1,0 +1,68 @@
+.parent-div {
+  width: 680px;
+  border: 2px /* solid red */;
+  margin: 0 auto;
+}
+
+.child-div {
+  width: 680px;
+  border: 2px /* solid red */;
+  margin: 0 auto;
+}
+
+.child-div2 {
+  width: 675px;
+  height: 250px;
+  border: 2px /* solid blue */;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  position: absolute;
+  top: 165px;
+  color: #000;
+}
+
+.child-div2#about {
+  width: 675px;
+  height: 470px;
+  border: 2px /* solid green */;
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: normal;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: none;
+  padding: 0;
+  position: absolute;
+  top: 90px;
+  color: #000;
+}
+
+p#title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+p#homelink {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+img {
+  width: 670px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: grey;
+}
