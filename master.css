@@ -1,0 +1,168 @@
+.text {
+  z-index: 100;
+  position: absolute;
+  left: 34%;
+  top: 12%;
+}
+
+.link {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #808080;
+}
+
+img {
+  width: 1200px;
+  height: 960px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/*iPad Pro*/
+@media (max-width: 1024px) {
+  .text {
+    z-index: 100;
+    position: absolute;
+    left: 26%;
+    top: 24%;
+  }
+
+  .link {
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: 1024px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+/*iPad*/
+@media (max-width: 768px) {
+  .text {
+    z-index: 100;
+    position: absolute;
+    left: 27%;
+    top: 24%;
+  }
+
+  .link {
+    font-size: 68px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+/*iPhone 6plus*/
+@media (max-width: 414px) {
+  .text {
+    z-index: 100;
+    position: absolute;
+    left: 26%;
+    top: 29%;
+  }
+
+  .link {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: 414px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+/*iPhone 6*/
+@media (max-width: 375px) {
+  .text {
+    z-index: 100;
+    position: absolute;
+    left: 24%;
+    top: 29%;
+  }
+
+  .link {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: 375px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .text {
+    z-index: 100;
+    position: absolute;
+    left: 24%;
+    top: 27%;
+  }
+
+  .link {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
